@@ -10,6 +10,11 @@ const plugin: EggPlugin = {
     enable: true,
     package: 'egg-mongoose',
   },
+
+  validate: {
+    enable: true,
+    package: 'egg-validate',
+  },
 };
 
 export default plugin;
